@@ -1,0 +1,41 @@
+nav span {
+    padding-right: 10px
+}
+
+body {
+    font-family: system, -apple-system, san francisco, roboto, segoe ui, helvetica neue, helvetica, lucida grande, arial, sans-serif;
+    padding: 0 10px;
+    line-height: 1.2;
+    font-size: 16px;
+    color: #111;
+    background-color: #fffefa
+}
+
+a:link {
+    color: #06f
+}
+
+li {
+    line-height: 1.4
+}
+
+h1, h2, h3 {
+    line-height: 1
+}
+
+#pwn {
+    background-image: url(img/pwn.png);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 370px;
+    height: 314px;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+@media screen and (max-width:800px) {
+    #pwn {
+        display: none !important
+    }
+}
